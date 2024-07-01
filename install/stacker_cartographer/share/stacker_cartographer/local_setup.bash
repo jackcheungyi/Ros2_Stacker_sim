@@ -1,0 +1,1 @@
+/home/humble/ros_control_ws/build/stacker_cartographer/ament_cmake_environment_hooks/local_setup.bash

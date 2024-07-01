@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000174] (stacker_cartographer) JobQueued: {'identifier': 'stacker_cartographer', 'dependencies': OrderedDict()}
+[0.000189] (stacker_description) JobQueued: {'identifier': 'stacker_description', 'dependencies': OrderedDict()}
+[0.000203] (stacker_nav2) JobQueued: {'identifier': 'stacker_nav2', 'dependencies': OrderedDict()}
+[0.000216] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.007064] (stacker_cartographer) JobStarted: {'identifier': 'stacker_cartographer'}
+[0.016624] (stacker_description) JobStarted: {'identifier': 'stacker_description'}
+[0.020406] (stacker_nav2) JobStarted: {'identifier': 'stacker_nav2'}
+[0.024401] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.034066] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/humble/ros_control_ws/src/rf2o_laser_odometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/humble/ros_control_ws/install/rf2o_laser_odometry'], 'cwd': '/home/humble/ros_control_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036946] (stacker_cartographer) JobProgress: {'identifier': 'stacker_cartographer', 'progress': 'cmake'}
+[0.038050] (stacker_cartographer) JobProgress: {'identifier': 'stacker_cartographer', 'progress': 'build'}
+[0.038885] (stacker_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/ros_control_ws/build/stacker_cartographer', '--', '-j16', '-l16'], 'cwd': '/home/humble/ros_control_ws/build/stacker_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_cartographer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039720] (stacker_description) JobProgress: {'identifier': 'stacker_description', 'progress': 'cmake'}
+[0.040692] (stacker_description) JobProgress: {'identifier': 'stacker_description', 'progress': 'build'}
+[0.041211] (stacker_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/ros_control_ws/build/stacker_description', '--', '-j16', '-l16'], 'cwd': '/home/humble/ros_control_ws/build/stacker_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044001] (stacker_nav2) JobProgress: {'identifier': 'stacker_nav2', 'progress': 'cmake'}
+[0.045273] (stacker_nav2) JobProgress: {'identifier': 'stacker_nav2', 'progress': 'build'}
+[0.046086] (stacker_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/ros_control_ws/build/stacker_nav2', '--', '-j16', '-l16'], 'cwd': '/home/humble/ros_control_ws/build/stacker_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_nav2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052420] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.075192] (stacker_cartographer) CommandEnded: {'returncode': 0}
+[0.077750] (stacker_nav2) CommandEnded: {'returncode': 0}
+[0.079645] (stacker_description) CommandEnded: {'returncode': 0}
+[0.093420] (stacker_cartographer) JobProgress: {'identifier': 'stacker_cartographer', 'progress': 'install'}
+[0.098734] (-) TimerEvent: {}
+[0.101076] (stacker_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/ros_control_ws/build/stacker_cartographer'], 'cwd': '/home/humble/ros_control_ws/build/stacker_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_cartographer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102266] (stacker_nav2) JobProgress: {'identifier': 'stacker_nav2', 'progress': 'install'}
+[0.102481] (stacker_nav2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/ros_control_ws/build/stacker_nav2'], 'cwd': '/home/humble/ros_control_ws/build/stacker_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_nav2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103345] (stacker_description) JobProgress: {'identifier': 'stacker_description', 'progress': 'install'}
+[0.103510] (stacker_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/ros_control_ws/build/stacker_description'], 'cwd': '/home/humble/ros_control_ws/build/stacker_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/stacker_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.106655] (stacker_cartographer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.107568] (stacker_cartographer) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.107748] (stacker_nav2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.108844] (stacker_nav2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.109076] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/config/cart_slam_2d.lua\n'}
+[0.109184] (stacker_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.109889] (stacker_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.110000] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/launch/stacker_nav2.launch.py\n'}
+[0.110165] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/launch/cartographer.launch.py\n'}
+[0.110306] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/display.launch.py\n'}
+[0.110397] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/display_simple.launch.py\n'}
+[0.110515] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/map.pgm\n'}
+[0.110603] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/gazebo.launch.py\n'}
+[0.110662] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/gazebo.launch_bp.py\n'}
+[0.110725] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/scan_map.launch.py\n'}
+[0.110816] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/map.yaml\n'}
+[0.110902] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/my_map.pgm\n'}
+[0.110972] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/stacker_drive.launch.py\n'}
+[0.111026] (stacker_description) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/stacker_drive_hardware.launch.py\n'}
+[0.111096] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/ament_index/resource_index/package_run_dependencies/stacker_cartographer\n'}
+[0.111206] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/my_map.yaml\n'}
+[0.111277] (stacker_nav2) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/test.yaml\n'}
+[0.111369] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/ament_index/resource_index/parent_prefix_path/stacker_cartographer\n'}
+[0.111688] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/environment/ament_prefix_path.sh\n'}
+[0.111816] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/environment/ament_prefix_path.dsv\n'}
+[0.112190] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/environment/path.sh\n'}
+[0.112329] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/environment/path.dsv\n'}
+[0.112615] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/local_setup.bash\n'}
+[0.113024] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/local_setup.sh\n'}
+[0.113419] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/local_setup.zsh\n'}
+[0.113487] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/local_setup.dsv\n'}
+[0.113556] (stacker_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/package.dsv\n'}
+[0.117221] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/base_link.dae\n'}
+[0.117447] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/base_link.stl\n'}
+[0.117533] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_1_1.dae\n'}
+[0.117611] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_1_1.stl\n'}
+[0.117743] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/config/config.rviz\n'}
+[0.117895] (stacker_nav2) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/config/config3.rviz\n'}
+[0.117966] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_2_1.dae\n'}
+[0.118033] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_2_1.stl\n'}
+[0.118099] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/steering_joint_1.dae\n'}
+[0.118177] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/steering_joint_1.stl\n'}
+[0.118245] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/wheel_1.dae\n'}
+[0.118346] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/wheel_1.stl\n'}
+[0.118474] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/rviz/urdf.rviz\n'}
+[0.118554] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.gazebo\n'}
+[0.118632] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.trans\n'}
+[0.118741] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.xacro\n'}
+[0.118868] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_bp.xacro\n'}
+[0.118952] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_simple.xacro.urdf\n'}
+[0.119031] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_src.xacro\n'}
+[0.119094] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/car.urdf.xacro\n'}
+[0.119152] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/materials.xacro\n'}
+[0.119228] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/test_tricycle_drive.xacro.urdf\n'}
+[0.119346] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/config.rviz\n'}
+[0.119457] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/config2.rviz\n'}
+[0.119508] (stacker_description) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/config3.rviz\n'}
+[0.119741] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/ament_index/resource_index/packages/stacker_cartographer\n'}
+[0.120377] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/cmake/stacker_cartographerConfig.cmake\n'}
+[0.120599] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/cmake/stacker_cartographerConfig-version.cmake\n'}
+[0.120715] (stacker_cartographer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_cartographer/share/stacker_cartographer/package.xml\n'}
+[0.123722] (stacker_cartographer) CommandEnded: {'returncode': 0}
+[0.124975] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/config/nav2_params.yaml\n'}
+[0.125247] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/package_run_dependencies/stacker_nav2\n'}
+[0.125480] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/parent_prefix_path/stacker_nav2\n'}
+[0.125599] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/ament_prefix_path.sh\n'}
+[0.125741] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/ament_prefix_path.dsv\n'}
+[0.126697] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/path.sh\n'}
+[0.126818] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/path.dsv\n'}
+[0.127358] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.bash\n'}
+[0.127425] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.sh\n'}
+[0.127475] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.zsh\n'}
+[0.127526] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.dsv\n'}
+[0.127582] (stacker_nav2) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/package.dsv\n'}
+[0.127637] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/stacker_drive_controller.yaml\n'}
+[0.127902] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/world/myworld.world\n'}
+[0.128599] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/world/test_world.world\n'}
+[0.128665] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/package_run_dependencies/stacker_description\n'}
+[0.128717] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/parent_prefix_path/stacker_description\n'}
+[0.128766] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/ament_prefix_path.sh\n'}
+[0.128814] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/ament_prefix_path.dsv\n'}
+[0.128861] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/path.sh\n'}
+[0.128908] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/path.dsv\n'}
+[0.128958] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.bash\n'}
+[0.129004] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.sh\n'}
+[0.129053] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.zsh\n'}
+[0.129100] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.dsv\n'}
+[0.129147] (stacker_description) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/package.dsv\n'}
+[0.135467] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/packages/stacker_description\n'}
+[0.135666] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/cmake/stacker_descriptionConfig.cmake\n'}
+[0.135714] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/cmake/stacker_descriptionConfig-version.cmake\n'}
+[0.135762] (stacker_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/package.xml\n'}
+[0.137209] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/packages/stacker_nav2\n'}
+[0.150479] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/cmake/stacker_nav2Config.cmake\n'}
+[0.153278] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/cmake/stacker_nav2Config-version.cmake\n'}
+[0.154014] (stacker_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/package.xml\n'}
+[0.174140] (stacker_description) CommandEnded: {'returncode': 0}
+[0.183120] (stacker_nav2) CommandEnded: {'returncode': 0}
+[0.198835] (-) TimerEvent: {}
+[0.216304] (stacker_cartographer) JobEnded: {'identifier': 'stacker_cartographer', 'rc': 0}
+[0.230835] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.234780] (stacker_description) JobEnded: {'identifier': 'stacker_description', 'rc': 0}
+[0.259097] (stacker_nav2) JobEnded: {'identifier': 'stacker_nav2', 'rc': 0}
+[0.266068] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.298975] (-) TimerEvent: {}
+[0.302794] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.305974] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.314106] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.325384] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342482] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.394612] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.396614] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399038] (-) TimerEvent: {}
+[0.486668] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499152] (-) TimerEvent: {}
+[0.599501] (-) TimerEvent: {}
+[0.627185] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.667686] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.674341] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.676229] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.699600] (-) TimerEvent: {}
+[0.799968] (-) TimerEvent: {}
+[0.900421] (-) TimerEvent: {}
+[0.992615] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.000561] (-) TimerEvent: {}
+[1.066802] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.100682] (-) TimerEvent: {}
+[1.195114] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200864] (-) TimerEvent: {}
+[1.249743] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[1.252044] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/humble/ros_control_ws/build/rf2o_laser_odometry\n'}
+[1.259396] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[1.260816] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[1.260838] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/ros_control_ws/build/rf2o_laser_odometry', '--', '-j16', '-l16'], 'cwd': '/home/humble/ros_control_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.284897] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry\x1b[0m\n'}
+[1.286237] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node\x1b[0m\n'}
+[1.298945] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[1.300940] (-) TimerEvent: {}
+[1.313948] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[1.401113] (-) TimerEvent: {}
+[1.501488] (-) TimerEvent: {}
+[1.601881] (-) TimerEvent: {}
+[1.702299] (-) TimerEvent: {}
+[1.802719] (-) TimerEvent: {}
+[1.903086] (-) TimerEvent: {}
+[2.003512] (-) TimerEvent: {}
+[2.103918] (-) TimerEvent: {}
+[2.204382] (-) TimerEvent: {}
+[2.304806] (-) TimerEvent: {}
+[2.405253] (-) TimerEvent: {}
+[2.505647] (-) TimerEvent: {}
+[2.606091] (-) TimerEvent: {}
+[2.706513] (-) TimerEvent: {}
+[2.806954] (-) TimerEvent: {}
+[2.907372] (-) TimerEvent: {}
+[3.007809] (-) TimerEvent: {}
+[3.108383] (-) TimerEvent: {}
+[3.208855] (-) TimerEvent: {}
+[3.309289] (-) TimerEvent: {}
+[3.409683] (-) TimerEvent: {}
+[3.510080] (-) TimerEvent: {}
+[3.610524] (-) TimerEvent: {}
+[3.710915] (-) TimerEvent: {}
+[3.811414] (-) TimerEvent: {}
+[3.911811] (-) TimerEvent: {}
+[4.012382] (-) TimerEvent: {}
+[4.112828] (-) TimerEvent: {}
+[4.213312] (-) TimerEvent: {}
+[4.313761] (-) TimerEvent: {}
+[4.414159] (-) TimerEvent: {}
+[4.514599] (-) TimerEvent: {}
+[4.615028] (-) TimerEvent: {}
+[4.715426] (-) TimerEvent: {}
+[4.815816] (-) TimerEvent: {}
+[4.916218] (-) TimerEvent: {}
+[5.016610] (-) TimerEvent: {}
+[5.117003] (-) TimerEvent: {}
+[5.217438] (-) TimerEvent: {}
+[5.317871] (-) TimerEvent: {}
+[5.418266] (-) TimerEvent: {}
+[5.518670] (-) TimerEvent: {}
+[5.619199] (-) TimerEvent: {}
+[5.719663] (-) TimerEvent: {}
+[5.820114] (-) TimerEvent: {}
+[5.920524] (-) TimerEvent: {}
+[6.020962] (-) TimerEvent: {}
+[6.121371] (-) TimerEvent: {}
+[6.221794] (-) TimerEvent: {}
+[6.322196] (-) TimerEvent: {}
+[6.422593] (-) TimerEvent: {}
+[6.522985] (-) TimerEvent: {}
+[6.623374] (-) TimerEvent: {}
+[6.723758] (-) TimerEvent: {}
+[6.824188] (-) TimerEvent: {}
+[6.924619] (-) TimerEvent: {}
+[7.025116] (-) TimerEvent: {}
+[7.125579] (-) TimerEvent: {}
+[7.225988] (-) TimerEvent: {}
+[7.326407] (-) TimerEvent: {}
+[7.426817] (-) TimerEvent: {}
+[7.527216] (-) TimerEvent: {}
+[7.627631] (-) TimerEvent: {}
+[7.728087] (-) TimerEvent: {}
+[7.828547] (-) TimerEvent: {}
+[7.928916] (-) TimerEvent: {}
+[8.029407] (-) TimerEvent: {}
+[8.129828] (-) TimerEvent: {}
+[8.230340] (-) TimerEvent: {}
+[8.330819] (-) TimerEvent: {}
+[8.431265] (-) TimerEvent: {}
+[8.531772] (-) TimerEvent: {}
+[8.632233] (-) TimerEvent: {}
+[8.732642] (-) TimerEvent: {}
+[8.833093] (-) TimerEvent: {}
+[8.933551] (-) TimerEvent: {}
+[9.034018] (-) TimerEvent: {}
+[9.134465] (-) TimerEvent: {}
+[9.234941] (-) TimerEvent: {}
+[9.335356] (-) TimerEvent: {}
+[9.435793] (-) TimerEvent: {}
+[9.536306] (-) TimerEvent: {}
+[9.636763] (-) TimerEvent: {}
+[9.737223] (-) TimerEvent: {}
+[9.837678] (-) TimerEvent: {}
+[9.938146] (-) TimerEvent: {}
+[10.038642] (-) TimerEvent: {}
+[10.139183] (-) TimerEvent: {}
+[10.239642] (-) TimerEvent: {}
+[10.340055] (-) TimerEvent: {}
+[10.440454] (-) TimerEvent: {}
+[10.540935] (-) TimerEvent: {}
+[10.641523] (-) TimerEvent: {}
+[10.741914] (-) TimerEvent: {}
+[10.842348] (-) TimerEvent: {}
+[10.942750] (-) TimerEvent: {}
+[11.043210] (-) TimerEvent: {}
+[11.143616] (-) TimerEvent: {}
+[11.244003] (-) TimerEvent: {}
+[11.344397] (-) TimerEvent: {}
+[11.444815] (-) TimerEvent: {}
+[11.545286] (-) TimerEvent: {}
+[11.645694] (-) TimerEvent: {}
+[11.746209] (-) TimerEvent: {}
+[11.846645] (-) TimerEvent: {}
+[11.947161] (-) TimerEvent: {}
+[12.047670] (-) TimerEvent: {}
+[12.148124] (-) TimerEvent: {}
+[12.248615] (-) TimerEvent: {}
+[12.349057] (-) TimerEvent: {}
+[12.449468] (-) TimerEvent: {}
+[12.549895] (-) TimerEvent: {}
+[12.650378] (-) TimerEvent: {}
+[12.750772] (-) TimerEvent: {}
+[12.851177] (-) TimerEvent: {}
+[12.951687] (-) TimerEvent: {}
+[13.052093] (-) TimerEvent: {}
+[13.152491] (-) TimerEvent: {}
+[13.252914] (-) TimerEvent: {}
+[13.353367] (-) TimerEvent: {}
+[13.453770] (-) TimerEvent: {}
+[13.554244] (-) TimerEvent: {}
+[13.654634] (-) TimerEvent: {}
+[13.755094] (-) TimerEvent: {}
+[13.855485] (-) TimerEvent: {}
+[13.955993] (-) TimerEvent: {}
+[14.056452] (-) TimerEvent: {}
+[14.156952] (-) TimerEvent: {}
+[14.257419] (-) TimerEvent: {}
+[14.357947] (-) TimerEvent: {}
+[14.458389] (-) TimerEvent: {}
+[14.558816] (-) TimerEvent: {}
+[14.659303] (-) TimerEvent: {}
+[14.759848] (-) TimerEvent: {}
+[14.860384] (-) TimerEvent: {}
+[14.960817] (-) TimerEvent: {}
+[15.061283] (-) TimerEvent: {}
+[15.161780] (-) TimerEvent: {}
+[15.262266] (-) TimerEvent: {}
+[15.362761] (-) TimerEvent: {}
+[15.463295] (-) TimerEvent: {}
+[15.563753] (-) TimerEvent: {}
+[15.664180] (-) TimerEvent: {}
+[15.764618] (-) TimerEvent: {}
+[15.865090] (-) TimerEvent: {}
+[15.965548] (-) TimerEvent: {}
+[16.066001] (-) TimerEvent: {}
+[16.166421] (-) TimerEvent: {}
+[16.266800] (-) TimerEvent: {}
+[16.367182] (-) TimerEvent: {}
+[16.467567] (-) TimerEvent: {}
+[16.567983] (-) TimerEvent: {}
+[16.668377] (-) TimerEvent: {}
+[16.768867] (-) TimerEvent: {}
+[16.869286] (-) TimerEvent: {}
+[16.969708] (-) TimerEvent: {}
+[17.070198] (-) TimerEvent: {}
+[17.170564] (-) TimerEvent: {}
+[17.270990] (-) TimerEvent: {}
+[17.371438] (-) TimerEvent: {}
+[17.471902] (-) TimerEvent: {}
+[17.572352] (-) TimerEvent: {}
+[17.672757] (-) TimerEvent: {}
+[17.773183] (-) TimerEvent: {}
+[17.873581] (-) TimerEvent: {}
+[17.974009] (-) TimerEvent: {}
+[18.074391] (-) TimerEvent: {}
+[18.174800] (-) TimerEvent: {}
+[18.275258] (-) TimerEvent: {}
+[18.375748] (-) TimerEvent: {}
+[18.476218] (-) TimerEvent: {}
+[18.576656] (-) TimerEvent: {}
+[18.677088] (-) TimerEvent: {}
+[18.777542] (-) TimerEvent: {}
+[18.878003] (-) TimerEvent: {}
+[18.978541] (-) TimerEvent: {}
+[19.079028] (-) TimerEvent: {}
+[19.179477] (-) TimerEvent: {}
+[19.280075] (-) TimerEvent: {}
+[19.380667] (-) TimerEvent: {}
+[19.481166] (-) TimerEvent: {}
+[19.581726] (-) TimerEvent: {}
+[19.682169] (-) TimerEvent: {}
+[19.782588] (-) TimerEvent: {}
+[19.883066] (-) TimerEvent: {}
+[19.983515] (-) TimerEvent: {}
+[20.083943] (-) TimerEvent: {}
+[20.089570] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[20.184167] (-) TimerEvent: {}
+[20.249677] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[20.284346] (-) TimerEvent: {}
+[20.384916] (-) TimerEvent: {}
+[20.451785] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] Built target rf2o_laser_odometry\n'}
+[20.485153] (-) TimerEvent: {}
+[20.585550] (-) TimerEvent: {}
+[20.685949] (-) TimerEvent: {}
+[20.786364] (-) TimerEvent: {}
+[20.886799] (-) TimerEvent: {}
+[20.987276] (-) TimerEvent: {}
+[21.044933] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[21.051782] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[21.072965] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[21.073070] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'], 'cwd': '/home/humble/ros_control_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb2dbb2c_b3d8_43de_bbc3_338e0d32b419'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.388'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.077046] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.077173] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.077455] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[21.083165] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[21.087399] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[21.087481] (-) TimerEvent: {}
+[21.091614] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[21.095688] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[21.100831] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[21.105413] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[21.109563] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[21.113726] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[21.118926] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[21.124887] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[21.130327] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[21.135287] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[21.139803] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[21.144665] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[21.149292] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[21.153421] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[21.160262] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[21.187669] (-) TimerEvent: {}
+[21.239848] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[21.240826] (-) EventReactorShutdown: {}

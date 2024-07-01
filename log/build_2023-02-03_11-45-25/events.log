@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (-) JobUnselected: {'identifier': 'stacker_cartographer'}
+[0.000173] (-) JobUnselected: {'identifier': 'stacker_description'}
+[0.000187] (-) JobUnselected: {'identifier': 'stacker_nav2'}
+[0.000202] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000216] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.007087] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.007520] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[0.008119] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/humble/ros_control_ws/build/rf2o_laser_odometry', '--', '-j16', '-l16'], 'cwd': '/home/humble/ros_control_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7fc38603_b27e_4691_aa3d_298b8a4e772e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045743] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry\x1b[0m\n'}
+[0.046925] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node\x1b[0m\n'}
+[0.059156] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[0.062514] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[0.099128] (-) TimerEvent: {}
+[0.199553] (-) TimerEvent: {}
+[0.300062] (-) TimerEvent: {}
+[0.400470] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601272] (-) TimerEvent: {}
+[0.701668] (-) TimerEvent: {}
+[0.802144] (-) TimerEvent: {}
+[0.902592] (-) TimerEvent: {}
+[1.003022] (-) TimerEvent: {}
+[1.103481] (-) TimerEvent: {}
+[1.204012] (-) TimerEvent: {}
+[1.304500] (-) TimerEvent: {}
+[1.405011] (-) TimerEvent: {}
+[1.505520] (-) TimerEvent: {}
+[1.605977] (-) TimerEvent: {}
+[1.706456] (-) TimerEvent: {}
+[1.806953] (-) TimerEvent: {}
+[1.907444] (-) TimerEvent: {}
+[2.007929] (-) TimerEvent: {}
+[2.108401] (-) TimerEvent: {}
+[2.208866] (-) TimerEvent: {}
+[2.309256] (-) TimerEvent: {}
+[2.409760] (-) TimerEvent: {}
+[2.510254] (-) TimerEvent: {}
+[2.610689] (-) TimerEvent: {}
+[2.711199] (-) TimerEvent: {}
+[2.811672] (-) TimerEvent: {}
+[2.912142] (-) TimerEvent: {}
+[3.012615] (-) TimerEvent: {}
+[3.113078] (-) TimerEvent: {}
+[3.213532] (-) TimerEvent: {}
+[3.314068] (-) TimerEvent: {}
+[3.414499] (-) TimerEvent: {}
+[3.514890] (-) TimerEvent: {}
+[3.615293] (-) TimerEvent: {}
+[3.715774] (-) TimerEvent: {}
+[3.816257] (-) TimerEvent: {}
+[3.916684] (-) TimerEvent: {}
+[4.017103] (-) TimerEvent: {}
+[4.117459] (-) TimerEvent: {}
+[4.217843] (-) TimerEvent: {}
+[4.318269] (-) TimerEvent: {}
+[4.418694] (-) TimerEvent: {}
+[4.519084] (-) TimerEvent: {}
+[4.619476] (-) TimerEvent: {}
+[4.719861] (-) TimerEvent: {}
+[4.820390] (-) TimerEvent: {}
+[4.920866] (-) TimerEvent: {}
+[5.021356] (-) TimerEvent: {}
+[5.121813] (-) TimerEvent: {}
+[5.222216] (-) TimerEvent: {}
+[5.322645] (-) TimerEvent: {}
+[5.423104] (-) TimerEvent: {}
+[5.523502] (-) TimerEvent: {}
+[5.624032] (-) TimerEvent: {}
+[5.724538] (-) TimerEvent: {}
+[5.825180] (-) TimerEvent: {}
+[5.925640] (-) TimerEvent: {}
+[6.026096] (-) TimerEvent: {}
+[6.126543] (-) TimerEvent: {}
+[6.226958] (-) TimerEvent: {}
+[6.327417] (-) TimerEvent: {}
+[6.427807] (-) TimerEvent: {}
+[6.528172] (-) TimerEvent: {}
+[6.628571] (-) TimerEvent: {}
+[6.728951] (-) TimerEvent: {}
+[6.829414] (-) TimerEvent: {}
+[6.929810] (-) TimerEvent: {}
+[7.030208] (-) TimerEvent: {}
+[7.130575] (-) TimerEvent: {}
+[7.230948] (-) TimerEvent: {}
+[7.331367] (-) TimerEvent: {}
+[7.431770] (-) TimerEvent: {}
+[7.532164] (-) TimerEvent: {}
+[7.632525] (-) TimerEvent: {}
+[7.732952] (-) TimerEvent: {}
+[7.833361] (-) TimerEvent: {}
+[7.933757] (-) TimerEvent: {}
+[8.034226] (-) TimerEvent: {}
+[8.134638] (-) TimerEvent: {}
+[8.235119] (-) TimerEvent: {}
+[8.335546] (-) TimerEvent: {}
+[8.435982] (-) TimerEvent: {}
+[8.536433] (-) TimerEvent: {}
+[8.636814] (-) TimerEvent: {}
+[8.737176] (-) TimerEvent: {}
+[8.837566] (-) TimerEvent: {}
+[8.938050] (-) TimerEvent: {}
+[9.038507] (-) TimerEvent: {}
+[9.138876] (-) TimerEvent: {}
+[9.239238] (-) TimerEvent: {}
+[9.339606] (-) TimerEvent: {}
+[9.440067] (-) TimerEvent: {}
+[9.540552] (-) TimerEvent: {}
+[9.640930] (-) TimerEvent: {}
+[9.741337] (-) TimerEvent: {}
+[9.841781] (-) TimerEvent: {}
+[9.942135] (-) TimerEvent: {}
+[10.042504] (-) TimerEvent: {}
+[10.142896] (-) TimerEvent: {}
+[10.243266] (-) TimerEvent: {}
+[10.343650] (-) TimerEvent: {}
+[10.444040] (-) TimerEvent: {}
+[10.544450] (-) TimerEvent: {}
+[10.644882] (-) TimerEvent: {}
+[10.745294] (-) TimerEvent: {}
+[10.845665] (-) TimerEvent: {}
+[10.946067] (-) TimerEvent: {}
+[11.046409] (-) TimerEvent: {}
+[11.146840] (-) TimerEvent: {}
+[11.247191] (-) TimerEvent: {}
+[11.347575] (-) TimerEvent: {}
+[11.447998] (-) TimerEvent: {}
+[11.548399] (-) TimerEvent: {}
+[11.648835] (-) TimerEvent: {}
+[11.749261] (-) TimerEvent: {}
+[11.849650] (-) TimerEvent: {}
+[11.950047] (-) TimerEvent: {}
+[12.050430] (-) TimerEvent: {}
+[12.150870] (-) TimerEvent: {}
+[12.251247] (-) TimerEvent: {}
+[12.351671] (-) TimerEvent: {}
+[12.452123] (-) TimerEvent: {}
+[12.552515] (-) TimerEvent: {}
+[12.652944] (-) TimerEvent: {}
+[12.753316] (-) TimerEvent: {}
+[12.853710] (-) TimerEvent: {}
+[12.954134] (-) TimerEvent: {}
+[13.054648] (-) TimerEvent: {}
+[13.155111] (-) TimerEvent: {}
+[13.255501] (-) TimerEvent: {}
+[13.355982] (-) TimerEvent: {}
+[13.456448] (-) TimerEvent: {}
+[13.556869] (-) TimerEvent: {}
+[13.657347] (-) TimerEvent: {}
+[13.757795] (-) TimerEvent: {}
+[13.858269] (-) TimerEvent: {}
+[13.958754] (-) TimerEvent: {}
+[14.059172] (-) TimerEvent: {}
+[14.159590] (-) TimerEvent: {}
+[14.259930] (-) TimerEvent: {}
+[14.360278] (-) TimerEvent: {}
+[14.460601] (-) TimerEvent: {}
+[14.561015] (-) TimerEvent: {}
+[14.661355] (-) TimerEvent: {}
+[14.761719] (-) TimerEvent: {}
+[14.862221] (-) TimerEvent: {}
+[14.962631] (-) TimerEvent: {}
+[15.062971] (-) TimerEvent: {}
+[15.163421] (-) TimerEvent: {}
+[15.263785] (-) TimerEvent: {}
+[15.364136] (-) TimerEvent: {}
+[15.464553] (-) TimerEvent: {}
+[15.564929] (-) TimerEvent: {}
+[15.665279] (-) TimerEvent: {}
+[15.765662] (-) TimerEvent: {}
+[15.866040] (-) TimerEvent: {}
+[15.966486] (-) TimerEvent: {}
+[16.066852] (-) TimerEvent: {}
+[16.167242] (-) TimerEvent: {}
+[16.267636] (-) TimerEvent: {}
+[16.368050] (-) TimerEvent: {}
+[16.468394] (-) TimerEvent: {}
+[16.568780] (-) TimerEvent: {}
+[16.669158] (-) TimerEvent: {}
+[16.769545] (-) TimerEvent: {}
+[16.869950] (-) TimerEvent: {}
+[16.970309] (-) TimerEvent: {}
+[17.070687] (-) TimerEvent: {}
+[17.171057] (-) TimerEvent: {}
+[17.271424] (-) TimerEvent: {}
+[17.371754] (-) TimerEvent: {}
+[17.472274] (-) TimerEvent: {}
+[17.572679] (-) TimerEvent: {}
+[17.673069] (-) TimerEvent: {}
+[17.773474] (-) TimerEvent: {}
+[17.873859] (-) TimerEvent: {}
+[17.974510] (-) TimerEvent: {}
+[18.074926] (-) TimerEvent: {}
+[18.175402] (-) TimerEvent: {}
+[18.275866] (-) TimerEvent: {}
+[18.376311] (-) TimerEvent: {}
+[18.476765] (-) TimerEvent: {}
+[18.553029] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[18.568641] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[18.576924] (-) TimerEvent: {}
+[18.677288] (-) TimerEvent: {}
+[18.758236] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] Built target rf2o_laser_odometry\n'}
+[18.777422] (-) TimerEvent: {}
+[18.877788] (-) TimerEvent: {}
+[18.978196] (-) TimerEvent: {}
+[19.078641] (-) TimerEvent: {}
+[19.179057] (-) TimerEvent: {}
+[19.279609] (-) TimerEvent: {}
+[19.380022] (-) TimerEvent: {}
+[19.480438] (-) TimerEvent: {}
+[19.580825] (-) TimerEvent: {}
+[19.681348] (-) TimerEvent: {}
+[19.713529] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[19.721293] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[19.739629] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[19.745774] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'], 'cwd': '/home/humble/ros_control_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'humble'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/humble'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'humble'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/humble-Standard-PC-i440FX-PIIX-1996:@/tmp/.ICE-unix/1693,unix/humble-Standard-PC-i440FX-PIIX-1996:/tmp/.ICE-unix/1693'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7fc38603_b27e_4691_aa3d_298b8a4e772e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VQAVZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/humble/ros_control_ws/build/rf2o_laser_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e4e7c1af4e0316865b05d16863dc6f5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.750915] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.751191] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[19.757542] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Set runtime path of "/home/humble/ros_control_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""\n'}
+[19.757633] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch\n'}
+[19.757693] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[19.757793] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[19.758218] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[19.758486] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[19.758757] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[19.759077] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[19.759422] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[19.759796] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[19.760005] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[19.760317] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[19.760689] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[19.760887] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[19.761297] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[19.761376] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[19.761615] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[19.761926] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/humble/ros_control_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[19.763261] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[19.781680] (-) TimerEvent: {}
+[19.826972] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[19.827569] (-) EventReactorShutdown: {}

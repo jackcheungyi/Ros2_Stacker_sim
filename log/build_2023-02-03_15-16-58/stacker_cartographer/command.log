@@ -1,0 +1,4 @@
+Invoking command in '/home/humble/ros_control_ws/build/stacker_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/ros_control_ws/build/stacker_cartographer -- -j16 -l16
+Invoked command in '/home/humble/ros_control_ws/build/stacker_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humble/ros_control_ws/build/stacker_cartographer -- -j16 -l16
+Invoking command in '/home/humble/ros_control_ws/build/stacker_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/ros_control_ws/build/stacker_cartographer
+Invoked command in '/home/humble/ros_control_ws/build/stacker_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humble/ros_control_ws/build/stacker_cartographer

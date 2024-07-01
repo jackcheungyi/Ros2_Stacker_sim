@@ -1,0 +1,69 @@
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 4.1.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.2 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/humble/ros_control_ws/build/stacker_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/display.launch.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/display_simple.launch.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/gazebo.launch_bp.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/scan_map.launch.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/launch/stacker_drive.launch.py
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/base_link.dae
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/base_link.stl
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_1_1.dae
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_1_1.stl
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_2_1.dae
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/fox_wheel_2_1.stl
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/steering_joint_1.dae
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/steering_joint_1.stl
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/wheel_1.dae
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/meshes/wheel_1.stl
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/rviz/urdf.rviz
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.gazebo
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.trans
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker.xacro
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_bp.xacro
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_simple.xacro.urdf
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/Stacker_src.xacro
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/car.urdf.xacro
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/materials.xacro
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/urdf/test_tricycle_drive.xacro.urdf
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/cart_slam_2d.lua
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/config.rviz
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/config/stacker_drive_controller.yaml
+-- Symlinking: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/world/test_world.world
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/package_run_dependencies/stacker_description
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/parent_prefix_path/stacker_description
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/path.sh
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/environment/path.dsv
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.bash
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.sh
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.zsh
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/local_setup.dsv
+-- Symlinking: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/package.dsv
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/ament_index/resource_index/packages/stacker_description
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/cmake/stacker_descriptionConfig.cmake
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/cmake/stacker_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_description/share/stacker_description/package.xml

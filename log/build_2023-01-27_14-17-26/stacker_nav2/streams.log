@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/humble/ros_control_ws/build/stacker_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/ros_control_ws/build/stacker_nav2 -- -j16 -l16
+[0.045s] Invoked command in '/home/humble/ros_control_ws/build/stacker_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/ros_control_ws/build/stacker_nav2 -- -j16 -l16
+[0.066s] Invoking command in '/home/humble/ros_control_ws/build/stacker_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/ros_control_ws/build/stacker_nav2
+[0.072s] -- Install configuration: ""
+[0.074s] -- Execute custom install script
+[0.074s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/launch/stacker_nav2.launch.py
+[0.075s] -- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/map.pgm
+[0.080s] -- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/map.yaml
+[0.085s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/my_map.pgm
+[0.085s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/map/my_map.yaml
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/config/nav2_params.yaml
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/package_run_dependencies/stacker_nav2
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/parent_prefix_path/stacker_nav2
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/path.sh
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/environment/path.dsv
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.bash
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.sh
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/local_setup.dsv
+[0.087s] -- Symlinking: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/package.dsv
+[0.091s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/ament_index/resource_index/packages/stacker_nav2
+[0.092s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/cmake/stacker_nav2Config.cmake
+[0.092s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/cmake/stacker_nav2Config-version.cmake
+[0.092s] -- Up-to-date symlink: /home/humble/ros_control_ws/install/stacker_nav2/share/stacker_nav2/package.xml
+[0.095s] Invoked command in '/home/humble/ros_control_ws/build/stacker_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/ros_control_ws/build/stacker_nav2

@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<robot name="Stacker" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find stacker_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find stacker_description)/urdf/Stacker.trans" />
+<xacro:include filename="$(find stacker_description)/urdf/Stacker.gazebo" />
+
+<link name="base_footprint"/>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 -0.05460469962339392 0.6911432734922607" rpy="0 0 0"/>
+    <mass value="3737.5898543243475"/>
+    <inertia ixx="851.809933" iyy="865.191869" izz="388.750555" ixy="0.0" iyz="-122.687313" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_1">
+  <inertial>
+    <origin xyz="0.06 1.459363100219793e-17 1.3877787807814457e-17" rpy="0 0 0"/>
+    <mass value="39.137804198788956"/>
+    <inertia ixx="0.258799" iyy="0.176365" izz="0.176365" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.06 -0.0 -0.106" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.06 -0.0 -0.106" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="steering_joint_1">
+  <inertial>
+    <origin xyz="1.1572818587658535e-15 5.296035624860686e-16 -0.03513567803671841" rpy="0 0 0"/>
+    <mass value="1.8199216894981038"/>
+    <inertia ixx="0.006611" iyy="0.012073" izz="0.011581" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.23" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/steering_joint_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.23" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/steering_joint_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="fox_wheel_1_1">
+  <inertial>
+    <origin xyz="-0.04500011089751482 -1.1102230246251565e-16 0.0" rpy="0 0 0"/>
+    <mass value="3.2608837645828146"/>
+    <inertia ixx="0.002395" iyy="0.003399" izz="0.003399" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.156458 0.86 -0.03" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/fox_wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.156458 0.86 -0.03" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/fox_wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="fox_wheel_2_1">
+  <inertial>
+    <origin xyz="0.04500011089751482 -1.1102230246251565e-16 0.0" rpy="0 0 0"/>
+    <mass value="3.2608837645828146"/>
+    <inertia ixx="0.002395" iyy="0.003399" izz="0.003399" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.156458 0.86 -0.03" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/fox_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.156458 0.86 -0.03" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://stacker_description/meshes/fox_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_link_joint" type="fixed">
+     <parent link="base_footprint"/>
+     <child link="base_link"/>
+     <origin rpy="0 0 0" xyz="0 0 0"/>
+   </joint>
+
+
+<joint name="wheel_main_joint" type="continuous">
+  <origin xyz="-0.06 0.0 -0.124" rpy="0 0 0"/>
+  <parent link="steering_joint_1"/>
+  <child link="wheel_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="steering_main_joint" type="revolute">
+  <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+  <origin xyz="0.0 0.0 0.23" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="steering_joint_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="fork_wheel_1" type="continuous">
+  <origin xyz="-0.156458 -0.86 0.03" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="fox_wheel_1_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="fork_wheel_2" type="continuous">
+  <origin xyz="0.156458 -0.86 0.03" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="fox_wheel_2_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+  <joint name="steering_main_joint">
+    <command_interface name="position" />
+    <state_interface name="position" />
+  </joint>
+  <joint name="wheel_main_joint">
+    <command_interface name="velocity" />
+    <state_interface name="velocity" />
+    <state_interface name="position" />
+  </joint>
+</ros2_control>
+
+ <!-- <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find stacker_description)/config/stacker_drive_controller.yaml</parameters>
+    </plugin>
+  </gazebo> -->
+
+</robot>

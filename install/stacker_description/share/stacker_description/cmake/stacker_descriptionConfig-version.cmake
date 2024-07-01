@@ -1,0 +1,1 @@
+/home/humble/ros_control_ws/build/stacker_description/ament_cmake_core/stacker_descriptionConfig-version.cmake

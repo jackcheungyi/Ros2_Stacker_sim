@@ -1,0 +1,1 @@
+/home/humble/ros_control_ws/src/gazebo_ros2_control_demos/launch/gripper_mimic_joint_example.launch.py
