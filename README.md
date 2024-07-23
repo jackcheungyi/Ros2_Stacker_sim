@@ -23,7 +23,7 @@ and run teleop keyboard control in another terminal
  ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=/tricycle_controller/cmd_vel
 ```
 
-https://github.com/user-attachments/assets/740cb77a-9e43-4efc-ba68-ee631ea03171
+https://github.com/user-attachments/assets/2344ef1e-f3d9-495c-8266-478cd94b5cc6
 
 ---
 ## Scan Map 
@@ -36,7 +36,9 @@ and run cartographer node in another terminal
  ros2 launch stacker_cartographer cartographer.launch.py 
 ```
 
-https://github.com/user-attachments/assets/2e38c80e-9a61-43d7-80ff-6297b9e027d0
+
+https://github.com/user-attachments/assets/a9e2742f-c2d3-44c7-85ca-8ad487d30624
+
 
 ---
 ## Navigation 
@@ -49,6 +51,6 @@ and run navigation node in another terminal
  ros2 launch stacker_nav2 stacker_nav2.launch.py
 ```
 
-https://github.com/user-attachments/assets/6ba8e08e-517e-4152-8891-00401c233ed5
+https://github.com/user-attachments/assets/6514163f-da6f-40c0-92f3-44c374566103
 
 ---
