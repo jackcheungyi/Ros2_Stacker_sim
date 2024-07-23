@@ -10,6 +10,7 @@ run
 ros2 launch stacker_description display_simple.launch.py
 ```
 to preview the urdf model 
+![rviz2_Demo](https://github.com/user-attachments/assets/788ea1c6-16c7-4dc0-9742-1b4e835b53a8)
 
 ---
 ## Drive the robot 
